@@ -1,6 +1,6 @@
 # Collaborative Filtering Recommender System
 
-This project implements a movie recommendation system (Movie Recommender System) using **Collaborative Filtering** technique based on **Matrix Factorization** method.
+This project implements a movie recommendation system (Movie Recommender System) using the **Collaborative Filtering** technique based on the **Matrix Factorization** method.
 
 The project includes two main approaches to solve the optimization problem:
 
@@ -10,24 +10,25 @@ The project includes two main approaches to solve the optimization problem:
 
 # Movie Recommender System - Collaborative Filtering
 
-Dự án này xây dựng một hệ thống gợi ý phim (Movie Recommender System) sử dụng kỹ thuật **Collaborative Filtering** (Lọc cộng tác) với thuật toán **Matrix Factorization** (Phân rã ma trận).
+This project builds a movie recommendation system (Movie Recommender System) using **Collaborative Filtering** technique with **Matrix Factorization** algorithm.
 
-Dự án được triển khai trên Jupyter Notebook, so sánh hai phương pháp tiếp cận:
+The project is implemented in Jupyter Notebook, comparing two approaches:
 
-1.  **Low-level implementation:** Sử dụng NumPy để xây dựng thuật toán Gradient Descent từ đầu (from scratch).
-2.  **High-level implementation:** Sử dụng TensorFlow (GradientTape, Adam Optimizer) để tối ưu hóa quá trình huấn luyện và khả năng mở rộng.
+1. **Low-level implementation:** Using NumPy to build the Gradient Descent algorithm from scratch.
+
+2. **High-level implementation:** Using TensorFlow (GradientTape, Adam Optimizer) to optimize training and scalability.
 
 ## 📂 Structure Project
 
 ````text
 📦 Movie-Recommender-System
- ┣ 📜 Recommender_System_Collaborative_Filtering.ipynb  # Main Source Code
- ┣ 📜 README.md                                         # Guide
- ┣ 📂 Dataset (MovieLens Small)
- ┃ ┣ 📜 movies.csv   # Danh sách phim (ID, Title, Genres)
- ┃ ┣ 📜 ratings.csv  # Dữ liệu đánh giá (User, Movie, Rating)
- ┃ ┣ 📜 links.csv    # Liên kết ID với IMDB/TMDB
- ┃ ┗ 📜 tags.csv     # Thẻ từ khóa (Tags)
+┣ 📜 Recommender_System_Collaborative_Filtering.ipynb # Main Source Code
+┣ 📜 README.md # Guide
+┣ 📂 Dataset (MovieLens Small)
+┃ ┣ 📜 movies.csv # List of movies (ID, Title, Genres)
+┃ ┣ 📜 ratings.csv # Rating data (User, Movie, Rating)
+┃ ┣ 📜 links.csv # Link ID to IMDB/TMDB
+┃ ┗ 📜 tags.csv # Keyword tags (Tags)
 
 ## 🚀 Main features
 
@@ -67,7 +68,7 @@ $$J(X, W, b) = \frac{1}{2} \sum_{(i,j):r(i,j)=1} (w^{(j)} \cdot x^{(i)} + b^{(j)
 
 - Use `tf.GradientTape` for Auto Differentiation.
 
-- Use `keras.optimizers.Adam` for optimizing convergence speed.
+- Use `keras.optimizers.Adam` for optimizing focusing speed.
 
 ## 🛠 Prerequisites
 
