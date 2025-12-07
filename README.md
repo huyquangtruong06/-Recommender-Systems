@@ -20,7 +20,6 @@ The project is implemented in Jupyter Notebook, comparing two approaches:
 
 ## 📂 Structure Project
 
-````text
 📦 Movie-Recommender-System
 ┣ 📜 Recommender_System_Collaborative_Filtering.ipynb # Main Source Code
 ┣ 📜 README.md # Guide
@@ -31,7 +30,6 @@ The project is implemented in Jupyter Notebook, comparing two approaches:
 ┃ ┗ 📜 tags.csv # Keyword tags (Tags)
 
 ## 🚀 Main features
-
 ### 1. Data Preprocessing
 
 - Mapping the original `userId` and `movieId` to the continuous index of the matrix.
